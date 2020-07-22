@@ -20,7 +20,7 @@ def maximumToys(prices, k):
 
 
 if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     nk = input().split()
 
@@ -31,8 +31,7 @@ if __name__ == '__main__':
     prices = list(map(int, input().rstrip().split()))
 
     result = maximumToys(prices, k)
-    print(str(result) + '\n')
 
-    # fptr.write(str(result) + '\n')
-    #
-    # fptr.close()
+    fptr.write(str(result) + '\n')
+    
+    fptr.close()
