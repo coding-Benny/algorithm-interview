@@ -1,36 +1,26 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
+from itertools import groupby
+
 
 # Complete the sockMerchant function below.
-def sockMerchant(n, ar):
-    count_list = []
-    pair = []
-    arr = list(set(ar))
-    for i in range(len(arr)):
-        count = 0
-        for j in range(n):
-            if arr[i] == ar[j]:
-                count += 1
-        count_list.append(count)
-    for k in range(len(count_list)):
-        pair.append(count_list[k]//2)
-    return sum(pair)
+def sockMerchant(ar):
+    pairs = 0
+    for socks in [len(list(group)) for key, group in groupby(sorted(ar))]:
+        pairs += socks//2
+    return pairs
 
 
 if __name__ == '__main__':
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input())
 
     ar = list(map(int, input().rstrip().split()))
 
-    result = sockMerchant(n, ar)
+    result = sockMerchant(ar)
 
-    #fptr.write(str(result) + '\n')
-    print(str(result) + '\n')
-    #fptr.close()
+    fptr.write(str(result) + '\n')
+
+    fptr.close()

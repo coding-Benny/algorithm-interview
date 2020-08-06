@@ -1,26 +1,26 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
+
 
 # Complete the countingValleys function below.
 def countingValleys(n, s):
-    level = 0
-    valley = 0
-    for i in range(n):
-        if s[i] == 'U':
-            level += 1
-            if level == 0:
-                valley += 1
-        elif s[i] == 'D':
-            level -= 1
-    return valley
+    height = 0
+    prev_height = 0
+    cnt = 0
+    for i, element in enumerate(s):
+        if element == 'U':
+            height += 1
+        elif element == 'D':
+            height -= 1
+        if height == 0 and prev_height < 0:
+            cnt += 1
+        prev_height = height
+    return cnt
+
 
 if __name__ == '__main__':
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input())
 
@@ -28,6 +28,6 @@ if __name__ == '__main__':
 
     result = countingValleys(n, s)
 
-    #fptr.write(str(result) + '\n')
-    print(str(result) + '\n')
-    #fptr.close()
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
