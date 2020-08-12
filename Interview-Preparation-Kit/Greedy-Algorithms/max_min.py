@@ -11,6 +11,7 @@ def maxMin(k, arr):
         minimum_unfairness = min(minimum_unfairness, arr[i+k-1] - arr[i])
     return minimum_unfairness
 
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
