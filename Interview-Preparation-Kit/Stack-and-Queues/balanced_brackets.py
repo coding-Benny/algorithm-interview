@@ -5,28 +5,16 @@ import os
 
 # Complete the isBalanced function below.
 def isBalanced(s):
-    stack = []
-    for bracket in s:
-        if bracket == "(" or bracket == "{" or bracket == "[":
-            stack.append(bracket)
-        else:
-            try:
-                bracket_partner = stack.pop(-1)
-                if bracket_partner == "(":
-                    if bracket != ")":
-                        return "NO"
-                elif bracket_partner == "{":
-                    if bracket != "}":
-                        return "NO"
-                elif bracket_partner == "[":
-                    if bracket != "]":
-                        return "NO"
-            except IndexError:
-                return "NO"
-    if len(stack) == 0:
-        return "YES"
-    else:
-        return "NO"
+    table = {')': '(', ']': '[', '}': '{'}
+
+    for _ in range(len(s)):
+        stack = []
+        for bracket in s:
+            if stack and table.get(bracket) == stack[-1]:
+                stack.pop()
+            else:
+                stack.append(bracket)
+        return "NO" if stack else "YES"
 
 
 if __name__ == '__main__':
