@@ -5,12 +5,22 @@ import os
 
 # Complete the arrayManipulation function below.
 def arrayManipulation(n, queries):
-    # run-time error
-    arr = [0] * n
-    for i in range(len(queries)):
-        for j in range(queries[i][0]-1, queries[i][1]):
-            arr[j] += queries[i][2]
-    return max(arr)
+    arr = [0] * (n + 1)
+    tmp = 0
+    maximum = -1
+
+    for query in queries:
+        start = query[0] - 1
+        end = query[1]
+
+        arr[start] += query[2]
+        arr[end] -= query[2]
+
+    for val in arr:
+        tmp += val
+        if maximum < tmp:
+            maximum = tmp
+    return maximum
 
 
 if __name__ == '__main__':
