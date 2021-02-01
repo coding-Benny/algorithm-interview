@@ -30,7 +30,25 @@
     </thead>
     <tbody>
       <tr>
-        <td>1</td><td>문제명</td><td>풀이링크</td>
+        <td>1</td><td><a href="https://leetcode.com/problems/number-of-islands/" target="_blank">Number of Islands</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/number_of_islands.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>2</td><td><a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/" target="_blank">Letter Combinations of a Phone Number</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/letter_combinations_of_a_phone_number.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>3</td><td><a href="https://leetcode.com/problems/permutations/" target="_blank">Permutations</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/permutations.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>4</td><td><a href="https://leetcode.com/problems/combinations/" target="_blank">Combinations</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/combinations.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>5</td><td><a href="https://leetcode.com/problems/combination-sum/" target="_blank">Combination Sum</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/combination_sum.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>6</td><td><a href="https://leetcode.com/problems/subsets/" target="_blank">Subsets</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/subsets.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>7</td><td><a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank">Reconstruct Itinerary</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/reconstruct_itinerary.py" target="_blank">링크</a></td>
       </tr>
     </tbody>
   </table>
