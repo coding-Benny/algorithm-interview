@@ -1,13 +1,8 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 # Complete the alternatingCharacters function below.
-def alternatingCharacters(s):
+def alternatingCharacters1(s):
     deletion = 0
     str = list(s)
     for idx in range(len(str)-1):
@@ -15,16 +10,27 @@ def alternatingCharacters(s):
             deletion += 1
     return deletion
 
+
+def alternatingCharacters2(s):
+    deletion = 0
+    for i in range(len(s) - 1):
+        if s[i] == s[i + 1]:
+            deletion += 1
+    return deletion
+
+
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    result = alternatingCharacters1("AAAA")
+    print(result)
 
-    q = int(input())
+    result = alternatingCharacters1("BBBBB")
+    print(result)
 
-    for q_itr in range(q):
-        s = input()
+    result = alternatingCharacters2("ABABABAB")
+    print(result)
 
-        result = alternatingCharacters(s)
-        print(str(result) + '\n')
-        fptr.write(str(result) + '\n')
+    result = alternatingCharacters2("BABABA")
+    print(result)
 
-    fptr.close()
+    result = alternatingCharacters2("AAABBB")
+    print(result)
