@@ -1,13 +1,8 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 # Complete the jumpingOnClouds function below.
-def jumpingOnClouds(c):
+def jumpingOnClouds1(c):
     jump = 0
     cloud = 0
 
@@ -20,15 +15,21 @@ def jumpingOnClouds(c):
             jump += 1
     return jump
 
+
+def jumpingOnClouds2(c):
+    step, jump = 0, 0
+    while step + 1 < len(c):
+        if step + 2 < len(c) and c[step + 2] == 0:
+            step += 2
+        else:
+            step += 1
+        jump += 1
+    return jump
+
+
 if __name__ == '__main__':
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    result = jumpingOnClouds1([0, 0, 1, 0, 0, 1, 0])
+    print(result)
 
-    n = int(input())
-
-    c = list(map(int, input().rstrip().split()))
-
-    result = jumpingOnClouds(c)
-
-    #fptr.write(str(result) + '\n')
-    print(str(result) + '\n')
-    #fptr.close()
+    result = jumpingOnClouds2([0, 0, 0, 1, 0, 0])
+    print(result)
