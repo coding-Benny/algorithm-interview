@@ -1,10 +1,8 @@
 #!/bin/python3
 
-import os
-
 
 # Complete the countingValleys function below.
-def countingValleys(n, s):
+def countingValleys1(n, s):
     height = 0
     prev_height = 0
     cnt = 0
@@ -19,15 +17,21 @@ def countingValleys(n, s):
     return cnt
 
 
+def countingValleys2(steps, path):
+    level, count = 0, 0
+    for step in path:
+        if step == "D":
+            level -= 1
+        else:
+            level += 1
+            if level == 0:
+                count += 1
+    return count
+
+
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    result = countingValleys1(8, "DDUUUUDD")
+    print(result)
 
-    n = int(input())
-
-    s = input()
-
-    result = countingValleys(n, s)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    result = countingValleys2(8, "UDDDUDUU")
+    print(result)
