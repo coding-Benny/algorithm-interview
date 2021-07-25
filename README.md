@@ -50,6 +50,24 @@
       <tr>
         <td>7</td><td><a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank">Reconstruct Itinerary</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/reconstruct_itinerary.py" target="_blank">링크</a></td>
       </tr>
+      <tr>
+        <td>8</td><td><a href="https://leetcode.com/problems/valid-palindrome/" target="_blank">Valid Palindrome</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/Graph/valid-palindrome.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>9</td><td><a href="https://leetcode.com/problems/reverse-string/" target="_blank">Reverse String</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/StringManipulation/reverse-string.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>10</td><td><a href="https://leetcode.com/problems/reorder-data-in-log-files/" target="_blank">Reorder Data in Log Files</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/StringManipulation/reorder-data-in-log-files.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>11</td><td><a href="https://leetcode.com/problems/most-common-word/" target="_blank">Most Common Word</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/StringManipulation/most-common-word.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>12</td><td><a href="https://leetcode.com/problems/group-anagrams/" target="_blank">Group Anagrams</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/StringManipulation/group-anagrams.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>13</td><td><a href="https://leetcode.com/problems/binary-search/" target="_blank">Binary Search</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/BinarySearch/binary-search.py" target="_blank">링크</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
