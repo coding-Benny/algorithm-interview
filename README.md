@@ -172,6 +172,63 @@
       <tr>
         <td>30</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12945" target="_blank">피보나치 수</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/fibonacci.py" target="_blank">링크</a></td>
       </tr>
+      <tr>
+        <td>31</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/82612" target="_blank">부족한 금액 계산하기</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/WeeklyChallenge/insufficient-fee.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>32</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/17677" target="_blank">뉴스 클러스터링</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/news-clustering.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>33</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12909" target="_blank">올바른 괄호</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/correct-parenthesis.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>34</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/60058" target="_blank">괄호 변환</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/parenthesis-conversion.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>35</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/17686" target="_blank">파일명 정렬</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/sort-file-names.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>36</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/17683" target="_blank">방금그곡</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/that-song-just-now.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>37</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42584" target="_blank">주식가격</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/stock-price.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>38</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42842" target="_blank">카펫</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/carpet.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>39</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42840" target="_blank">모의고사</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level1/mock-exam.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>40</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/83201" target="_blank">상호 평가</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/WeeklyChallenge/mutual-evaluation.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>41</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42747" target="_blank">H-Index</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/h-index.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>42</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42576" target="_blank">완주하지 못한 선수</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level1/runner-who-did-not-finish-the-marathon.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>43</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42577" target="_blank">전화번호 목록</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/phone-book-list.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>44</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12911" target="_blank">다음 큰 숫자</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/next-larger-number.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>45</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12951" target="_blank">JadenCase 문자열 만들기</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/creating-jadencase-strings.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>46</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/49994" target="_blank">방문 길이</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/length-of-visit.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>47</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12941" target="_blank">최솟값 만들기</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/make-minimum-value.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>48</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12939" target="_blank">최댓값과 최솟값</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/maximum-and-minimum.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>49</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12924" target="_blank">숫자의 표현</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/representation-of-numbers.py" target="_blank">링크</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
