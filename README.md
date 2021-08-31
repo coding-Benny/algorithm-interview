@@ -68,6 +68,9 @@
       <tr>
         <td>13</td><td><a href="https://leetcode.com/problems/binary-search/" target="_blank">Binary Search</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/BinarySearch/binary-search.py" target="_blank">링크</a></td>
       </tr>
+      <tr>
+        <td>14</td><td><a href="https://leetcode.com/problems/intersection-of-two-arrays/" target="_blank">Intersection of Two Arrays</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/LeetCode/BinarySearch/intersection-of-two-arrays.py" target="_blank">링크</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
@@ -228,6 +231,33 @@
       </tr>
       <tr>
         <td>49</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12924" target="_blank">숫자의 표현</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/representation-of-numbers.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>50</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/62048" target="_blank">멀쩡한 사각형</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/normal-square.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>51</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/76502" target="_blank">괄호 회전하기</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/rotate-parentheses.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>52</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/12953" target="_blank">N개의 최소공배수</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/n-least-common-multiple.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>53</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/60057" target="_blank">문자열 압축</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/string-compression.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>54</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/84325" target="_blank">직업군 추천하기</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/WeeklyChallenge/recommend-a-profession.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>55</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/72412" target="_blank">순위 검색</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/search-rank.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>56</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/64065" target="_blank">튜플</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/tuple.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>57</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/42579" target="_blank">베스트앨범</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level3/best-album.py" target="_blank">링크</a></td>
+      </tr>
+      <tr>
+        <td>58</td><td><a href="https://programmers.co.kr/learn/courses/30/lessons/43165" target="_blank">타겟 넘버</a></td><td><a href="https://github.com/coding-Benny/algorithm-interview/blob/master/Programmers/Level2/target-number.py" target="_blank">링크</a></td>
       </tr>
     </tbody>
   </table>
